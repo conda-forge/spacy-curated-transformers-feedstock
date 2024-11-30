@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "2.1.2" %}
 {% set python_min = python_min|default("3.9") %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/spacy_curated_transformers/spacy_curated_transformers-{{ version }}.tar.gz
-  sha256: 989a6bf2aa7becd1ac8c3be5f245cd489223d4e16e7218f6b69479c7e2689937
+  sha256: b39ad476a8cb23cc6c566b55b14808f34593c8b7849b26cc4718b71e106e9941
 
 build:
   noarch: python
